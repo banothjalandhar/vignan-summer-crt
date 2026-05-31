@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-h0vys&c1_69!6b&wcq-iy5yil0_$cw5t_cw)7n1_4@9f937zl5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -77,20 +77,10 @@ WSGI_APPLICATION = 'vignansummercrt.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-
-        'NAME': 'studentdb',
-
-        'USER': 'postgres',
-        
-        'PASSWORD': 'admin',
-
-        'HOST': 'host.docker.internal',
-
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-
 # Password validation
 # https://docs.djangoproject.com/en/6.0/ref/settings/#auth-password-validators
 
@@ -126,5 +116,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
-MEDIA_URL='/media/'
-MEDIA_ROOT=BASE_DIR/'media'
+
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
