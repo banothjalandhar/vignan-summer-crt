@@ -1,0 +1,27 @@
+Time: 20 minutes		  Max. Marks: 5x2=10
+
+Set 1
+1)Explain the purpose of Asymptotic Notations in algorithm analysis.
+2)What is an AVL Tree? Mention one of its applications.
+3)explain steps of quick sort
+4)What is a Min Heap? Provide an example.
+5)Describe the concept of connected components in a graph.
+or
+6)What is the key idea behind the Divide and Conquer method?
+
+Set 2
+1)Explain the purpose of Asymptotic Notations in algorithm analysis.
+2)State the properties of a B-Tree.
+3)Differentiate between Min Heaps and Max Heaps.
+4)What is the adjacency matrix representation of a graph?
+5)Briefly explain the Quick Sort algorithm.
+or
+6)What is Strassen’s Matrix Multiplication used for?
+Set 3
+1)Explain the purpose of Asymptotic Notations in algorithm analysis.
+2)What are the properties of AVL Trees?
+3)Explain how priority queues are implemented using heaps.
+4)explain Breadth-First Search (BFS) and Depth first search ?
+5)Briefly describe the Merge Sort algorithm.
+or
+6)What is the Convex Hull problem in computational geometry?
